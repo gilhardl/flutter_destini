@@ -43,19 +43,25 @@ class StoryBrain {
     if (choiceNumber == 1) {
       switch (storyNumber) {
         case 0:
+          storyNumber = 2;
           break;
         case 1:
+          storyNumber = 2;
           break;
         case 2:
+          storyNumber = 5;
           break;
       }
     } else {
       switch (storyNumber) {
         case 0:
+          storyNumber = 1;
           break;
         case 1:
+          storyNumber = 3;
           break;
         case 2:
+          storyNumber = 4;
           break;
       }
     }
